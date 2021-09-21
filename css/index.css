@@ -1,0 +1,48 @@
+header {
+  padding: 30px 0;
+}
+
+header h1, header h4 {
+	display: inline-block;
+	float: left;
+	vertical-align: text-bottom;
+}	
+
+@media screen and (max-width: 550px) {
+	.profile {
+		display: none;
+	}
+}
+
+.footer {
+	padding-top: 20px;
+	text-align: center;
+	color: #DDDDDD;
+	font-size: 70%;
+}
+
+nav ul {
+	display: inline-block;
+  vertical-align: bottom;
+}
+
+nav li {
+	display: inline;
+	padding-right: 20px;
+	vertical-align: bottom;
+}
+
+nav a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.social {
+	list-style-type: none;
+	display: inline-block;
+}
+
+.social li {
+	display: inline;
+	padding-right: 10px;
+}
